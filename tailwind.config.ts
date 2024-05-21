@@ -11,7 +11,7 @@ const config: Config = {
       container: {
         center: true,
         padding: {
-          DEFAULT: "1rem",
+          DEFAULT: "12px",
           "2xl": "4.5rem",
         },
         screens: {
@@ -37,15 +37,39 @@ const config: Config = {
         },
       },
       fontSize: {
+        "21": "21px",
         "32": ['32px', '48px'],
+        "56": "56px",
+      },
+      letterSpacing: {
+        "0.3": '.3px',
+        "0.4": '.4px',
       },
       backgroundImage: {
         'bannerImg': "url(/Preset.png)",
       },
       spacing: {
+        '1': '1px',
+        '18': '18px',
+        '22': '22px',
+        '25': '25px',
+        '31': '31px',
+        '34': '34px',
+        '38': '38px',
+        '102': '102px',
+        '124': '124px',
+        '125': '125px',
         '145': '145px',
         '188': '188px',
-      }
+        '321': '321px',
+        '439': '439px',
+        '580': '580px',
+        '815': '815px',
+      },
+      borderRadius: {
+        '30': '30px',
+        '40': '40px',
+      },
     },
   },
   plugins: [],
