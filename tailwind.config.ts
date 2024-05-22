@@ -33,7 +33,10 @@ const config: Config = {
       },
       colors: {
         'primary': {
-          '900': '#F40469',
+          50: '#FFD0D8',
+          300: '#FF6A90',
+          400: '#FB0E74',
+          900: '#F40469',
         },
       },
       fontSize: {
@@ -68,6 +71,7 @@ const config: Config = {
       },
       borderRadius: {
         '30': '30px',
+        '32': '32px',
         '40': '40px',
       },
     },

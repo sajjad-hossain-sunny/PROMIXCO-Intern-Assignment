@@ -1,14 +1,18 @@
 import React, { FC } from 'react'
-import { Banner, GetApp } from '../../components';
-import { CustomImage, Navbar } from '@/core';
+import { Banner, CTA, GetApp, HowItWorks, PopularAreas, Testimonial } from '../../components';
+import Footer from '@/app/core/Footer/Footer';
 
 interface Props { }
 
 const HomeWrapper: FC<Props> = () => {
   return (
     <>
-      <Banner latitude={null} longitude={null} />
+      <Banner />
       <GetApp />
+      <PopularAreas />
+      <HowItWorks />
+      <CTA />
+      <Testimonial />
     </>
   )
 }

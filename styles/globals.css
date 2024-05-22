@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
   font-family: "Jost", sans-serif;
+}
+
+.worksCardCss {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3), 0 33px 32px 0 rgba(50, 44, 44, 0.05), 0 1px 1px 0 rgba(82, 73, 73, 0.10);
 }
